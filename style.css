@@ -65,8 +65,18 @@ Version: 1.0
 	border: 1px solid darkred;
 	padding: 5px;
 }
+.nnj-nav ul{
+    padding: 0px; 	
+    margin: 0px;
+} 
+.nnj-nav ul li {
+    display: inline; 	
+    margin-right: 1em;
+}
 
-/* フッター部 */
+/**********************************************************************
+* フッター
+**********************************************************************/
 .nnj-footer {
 	margin: 2px 0px 30px 0px;
 	border: 1px solid darkred;
