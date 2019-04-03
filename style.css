@@ -178,12 +178,12 @@ Version: 1.0
 }
 .nnj-wight-sidebar ul li {
 	position: relative;
-  list-style-type: none!important;
+	list-style-type: none!important;
 	margin-bottom: 0px;
 	border-bottom: dotted 1px palevioletred;
-  padding: 1px;
-  line-height: 1.2;
-  background: papayawhip;
+	padding: 1px;
+ 	line-height: 1.2;
+	background: papayawhip;
 	vertical-align: middle;
 	font-size: 90%;
 }
@@ -202,6 +202,7 @@ Version: 1.0
 /**********************************************************************
 * ページ要素
 **********************************************************************/
+/* ページャー */
 .nnj-pager {
 	margin: 0px 0px 5px 0px;
 	border: solid 1px darkred;
@@ -211,12 +212,14 @@ Version: 1.0
 	font-size: 80%;
 }
 
+/* 記事 */
 .nnj-section {
 	margin: 0px 0px 5px 0px;
 	border: solid 1px darkred;
 	padding: 0px;
 }
 
+/* 記事タイトル */
 .nnj-section-title {
 	margin: 0px;
 	border-bottom: solid 1px darkred;
@@ -232,6 +235,7 @@ Version: 1.0
 	margin-inline-end: 0px;
 }
 
+/* 記事の情報 */
 .nnj-section-info {
 	margin: 0px;
 	border-bottom: solid 1px darkred;
@@ -240,12 +244,14 @@ Version: 1.0
 	font-size: 80%;
 }
 
+/* 記事本文 */
 .nnj-section-main {
 	margin: 0px;
 	border: none;
 	padding: 4px;
 }
 
+/* コメント */
 .nnj-section-comment {
 	margin: 0px;
 	border-top: dashed 1px burlywood;
@@ -267,6 +273,7 @@ Version: 1.0
 	display: none;
 }
 
+/* トラックバック */
 .nnj-section-trackback {
 	margin: 0px;
 	border-top: dashed 1px burlywood;
@@ -274,4 +281,63 @@ Version: 1.0
 }
 .nnj-section-trackback h3 {
 	font-size: 90%;
+}
+
+/**********************************************************************
+* 本文中の要素
+**********************************************************************/
+/* セクションのタイトル */
+.nnj-section-main h3 {
+	margin: 0px;
+	padding: 2px 0px 2px 10px;
+	border: solid 2px darkred;
+	font-size: 120%;
+	background-color: azure;
+}
+
+/* RSS Field */
+.rssimport {
+	margin: 0px;
+	border: solid 1px darkred;
+	padding: 0px;
+}
+.rssimport ul {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+.rssimport ul li {
+	position: relative;
+	list-style-type: none!important;
+	margin-bottom: 0px;
+	border-bottom: dotted 1px palevioletred;
+	padding: 2px;
+	line-height: 1.2;
+	background: papayawhip;
+	vertical-align: middle;
+	font-size: 100%;
+}
+
+/* コンソール */
+pre.command {
+	margin: 2px 10px 2px 0px;
+	border: solid 1px red;
+	padding: 4px 10px 4px 10px;
+	background-color: black;
+	color: white;
+}
+
+/* ソースコード、設定 */
+pre.source {
+	margin: 2px 10px 2px 0px;
+	border: solid 1px darkred;
+	padding: 4px 10px 4px 10px;
+	background-color: lightblue;
+	color: black;
+}
+
+/* 広告枠 */
+.master-post-advert {
+	border: double 1px darkred;
+	padding: 10px;
 }
