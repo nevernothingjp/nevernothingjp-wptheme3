@@ -45,6 +45,13 @@ Version: 1.0
 .nnj-header-right {
 	text-align:right;
 }
+.nnj-header-right ul {
+    list-style: none;
+}
+.nnj-header-right ul li {
+    display: inline; 	
+    margin-right: 1em;
+}
 
 .nnj-header-description {
   text-align:left;
@@ -81,6 +88,13 @@ Version: 1.0
 	margin: 2px 0px 30px 0px;
 	border: 1px solid darkred;
 	padding: 5px;
+}
+.nnj-footer ul {
+    list-style: none;
+}
+.nnj-footer ul li {
+    display: inline; 	
+    margin-right: 1em;
 }
 
 /**********************************************************************
@@ -340,4 +354,5 @@ pre.source {
 .master-post-advert {
 	border: double 1px darkred;
 	padding: 10px;
+	width: 500px;
 }
