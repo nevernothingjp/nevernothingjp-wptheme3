@@ -83,6 +83,88 @@ if (!function_exists('thema_setup')):
         )
       );
     }
+
+    register_sidebar(
+      array(
+        'name' => 'Wiget Header Left SP',
+        'id' => 'nnj-wiget-header-left-sp',
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '',
+        'after_title' => '',
+      )
+    );
+    register_sidebar(
+        array(
+          'name' => 'Wiget Header Center SP',
+          'id' => 'nnj-wiget-header-center-sp',
+          'before_widget' => '',
+          'after_widget' => '',
+          'before_title' => '',
+          'after_title' => '',
+        )
+      );
+      register_sidebar(
+        array(
+          'name' => 'Wiget Header Right SP',
+          'id' => 'nnj-wiget-header-right-sp',
+          'before_widget' => '',
+          'after_widget' => '',
+          'before_title' => '',
+          'after_title' => '',
+        )
+      );
+      register_sidebar(
+        array(
+          'name' => 'Wiget Header Bottom SP',
+          'id' => 'nnj-wiget-header-bottom-sp',
+          'before_widget' => '',
+          'after_widget' => '',
+          'before_title' => '',
+          'after_title' => '',
+        )
+      );
+      register_sidebar(
+        array(
+          'name' => 'Wiget Navigater SP',
+          'id' => 'nnj-wiget-navigater-sp',
+          'before_widget' => '',
+          'after_widget' => '',
+          'before_title' => '',
+          'after_title' => '',
+        )
+      );
+      register_sidebar(
+        array(
+          'name' => 'Wiget Footer SP',
+          'id' => 'nnj-wiget-footer-sp',
+          'before_widget' => '',
+          'after_widget' => '',
+          'before_title' => '',
+          'after_title' => '',
+        )
+      );
+      register_sidebar(
+        array(
+          'name' => 'Wiget Sidebar Left SP',
+          'id' => 'nnj-wiget-sidebar-left-sp',
+          'before_widget' => '<div class="nnj-wight-sidebar nnj-wight-sidebar-left">',
+          'after_widget' => '</div>',
+          'before_title' => '<h3>',
+          'after_title' => '</h3>',
+        )
+      );
+      register_sidebar(
+        array(
+          'name' => 'Wiget Sidebar Right SP',
+          'id' => 'nnj-wiget-sidebar-right-sp',
+          'before_widget' => '<div class="nnj-wight-sidebar nnj-wight-sidebar-right">',
+          'after_widget' => '</div>',
+          'before_title' => '<h3>',
+          'after_title' => '</h3>',
+        )
+      );
+
 endif;
 
 // Add Actions
